@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: beige;
+        }
+
+        header {
+            background-color: white;
+            padding: 5px;
+            margin: auto;
+            width: 600px;
+            border-radius: 5px;
+        }
+
+        ul > li{
+            display: inline;
+            margin-left: 40px;
+        }
+        
+        nav{
+            background-color: rgb(247, 95, 95);
+            box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.219);
+        }
+
+
+        a{
+            text-decoration: none;
+            color:black;
+            font-weight: bolder;
+        }
+
+        li > a:hover{
+            color: rgb(97, 97, 86);
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        main {
+            background-color: white;
+            padding: 5px;
+            margin: 10px auto;
+            width: 600px;
+            border-radius: 5px;
+        }
+
+        article{
+            text-align: justify;
+        }
+
+        aside{
+            text-align: end;
+        }
+
+        footer{
+            background-color: black;
+            outline: 5px double rgb(209, 25, 25);
+            color: beige;
+            text-align: center;
+            width: 600px;
+            margin: 15px auto;
+            padding: 1px;
+        }
+
+        footer > p{
+            margin:0px;
+        }
+
+        div#bola{
+            background-color: blue;
+            height: 200px ;
+            width: 200px;
+            border-radius: 250px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <ul>
+                <li><a href="#">aoba filhao</a></li>
+                <li><a href="#">aoba filhao</a></li>
+                <li><a href="#">aoba filhao</a></li>
+                <li><a href="#">aoba filhao</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id='assunto'>
+
+        </section>
+        <section id="artigo">
+            <article>
+                <h1>Olá sobre um assunto que está em alta</h1>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, nisi? Cumque quaerat suscipit aspernatur sed sunt voluptatum odit earum quas repellat distinctio modi enim, cupiditate laboriosam aliquid voluptates quisquam facilis.
+                <aside>
+                    Anúncio
+                </aside>
+            </article>
+
+        </section>
+    </main>
+    <footer>
+        <p>trabalhei para conquistar. By: Gustavo Chinovcski</p>
+    </footer>
+    <div id="bola"></div>
+
+</body>
+</html>
