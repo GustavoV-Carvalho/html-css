@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício de Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            width: 500px;
+            border-collapse: collapse;
+        }
+        
+        caption{
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        th, td{
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        .colnome{
+            
+            background-color: crimson;
+        }
+        .colsexo{
+            background-color: chocolate;
+        }
+        .cidade{
+            background-color: cornflowerblue;
+        }
+        .colprof{
+            background-color: darkgreen;
+            color: white;
+        }
+       
+    </style>
+</head>
+<body>
+    <h1>Exercício com tabela</h1>
+    <table>
+        <colgroup>
+            <col class="colnome">
+            <col class="colsexo">
+            <col class="cidade">
+            <col class="colprof">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th>Nome</th>
+            <th>Sexo</th>
+            <th>Idade</th>
+            <th>Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalismo</td>
+        </tr>
+        <tr>
+            <td>Bruno</td>
+            <td>M</td>
+            <td>27</td>
+            <td>Engenheiro Civil</td>
+        </tr>
+        <tr>
+            <td>Joás</td>
+            <td>M</td>
+            <td>47</td>
+            <td>Enfermeiro</td>
+        </tr>
+        <tr>
+            <td>Beatriz</td>
+            <td>F</td>
+            <td>45</td>
+            <td>Enfermeira</td>
+        </tr>
+        <tr>
+            <td>Gustavo</td>
+            <td>M</td>
+            <td>20</td>
+            <td>Engenheiro de software</td>
+        </tr>
+        
+    </table>
+</body>
+</html>
